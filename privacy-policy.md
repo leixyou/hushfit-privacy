@@ -1,9 +1,10 @@
 > **发布前要做的事（发布时删掉这段说明）**
 >
-> - 把下文两处 `[CONTACT EMAIL]` 换成你的联系邮箱；App 内的 `iOS/Views/PrivacyView.swift` 里 `contact` 也换成同一个地址，再删掉它下面那行 `#warning`（没填之前，每次 Release 构建和归档都会出这条警告，提醒占位文字还在）。
-> - 把这一页放到一个公开网址，填进 App Store Connect 的“隐私政策网址”，英文和简体中文两个本地化都要填。要选中国大陆也能稳定打开的地方（比如自己的域名）；GitHub Pages 在国内访问不稳定。
+> - 联系邮箱已填：`leixyou@gmail.com`（与 App 内 `PrivacyView` 一致）。
+> - 公开网址（GitHub Pages）：https://leixyou.github.io/hushfit-privacy/ — 填进 App Store Connect 的“隐私政策网址”（英文 / 简体中文等本地化都填同一地址）。注意：GitHub Pages 在中国大陆访问可能不稳定。
 > - App Store Connect 的“App 隐私”问卷：问是否从此 App 收集数据时选“否”，商店页会显示“未收集数据”（Data Not Collected）。用户在系统设置里选择与开发者共享的崩溃报告和使用统计（App 分析）由 Apple 收集，不需要申报。
-> - 以后改动政策内容，要同时改 App 内的 `PrivacyView` 和这里的两个日期。
+> - 以后改动政策内容，要同时改 App 内的 `PrivacyView`、本文件，以及仓库 `leixyou/hushfit-privacy` 的 GitHub Pages 站点。
+
 
 # Hushfit Privacy Policy
 
@@ -41,7 +42,7 @@ If this policy changes, the new version will be posted on this page with a new d
 
 ## Contact
 
-Questions about privacy? Email [CONTACT EMAIL].
+Questions about privacy? Email leixyou@gmail.com.
 
 ---
 
@@ -81,7 +82,7 @@ Questions about privacy? Email [CONTACT EMAIL].
 
 ## 联系我们
 
-对隐私有疑问？请发邮件到 [CONTACT EMAIL]。
+对隐私有疑问？请发邮件到 leixyou@gmail.com。
 
 ---
 
@@ -121,4 +122,4 @@ Hushfit はヘルスケアの読み書きをせず、位置情報・連絡先・
 
 ## お問い合わせ
 
-プライバシーについてご質問がある場合は、[CONTACT EMAIL] までメールください。
+プライバシーについてご質問がある場合は、leixyou@gmail.com までメールください。
